@@ -1,0 +1,31 @@
+.content{
+   margin: 20rpx; 
+}
+.topImageView{
+  margin-left: 25rpx;
+  margin-top: 25rpx;
+  margin-right: 25rpx;
+  margin-bottom: 0rpx;
+  text-align: center;
+}
+.topImage{
+  width: 400rpx;
+  height: 400rpx;
+}
+.cart-null-text{
+  margin-left: 25rpx;
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+  font-size: 28rpx;
+  color: #666;
+  text-align: center
+}
+.goShop{
+  color: rgb(240, 234, 234);
+  background-color: #FF3300;
+  margin-top: 70rx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  height: 80rpx;
+  font-size: 28rpx;
+}

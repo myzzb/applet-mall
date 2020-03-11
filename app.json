@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/category/category",
+    "pages/my/my",
+    "pages/home/home",
+    "pages/login/login",
+    "pages/car/car"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "购你玩",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "backgroundColor": "#fff",
+    "color": "#A0A0A0",
+    "selectedColor": "#FF3300",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "images/tabBar/home.png",
+        "selectedIconPath": "images/tabBar/home_s.png",
+        "text": "首页"
+      },
+      {
+       "pagePath": "pages/category/category",
+       "iconPath": "images/tabBar/category.png",
+       "selectedIconPath": "images/tabBar/category_s.png",
+       "text": "分类"
+      },
+      {
+        "pagePath": "pages/car/car",
+        "iconPath": "images/tabBar/car.png",
+        "selectedIconPath": "images/tabBar/car_s.png",
+        "text": "购物车"
+      },{
+        "pagePath": "pages/my/my",
+        "iconPath": "images/tabBar/my.png",
+        "selectedIconPath": "images/tabBar/my_s.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,72 @@
+<view class="content">
+  <view class="head">
+    <!-- 如果只是展示用户头像昵称，可以使用 <open-data /> 组件 -->
+    <view class="headImgView">
+      <open-data class='headImg' type="userAvatarUrl"></open-data>
+    </view>
+    <view class="headNameView">
+      <open-data type="userNickName"></open-data>
+      <view class="text">V1 普通会员</view>
+    </view>
+  </view>
+  <view class="orderView">
+    <view class="myOrder">我的订单
+    <image class="right-arrow" src="/images/order/right-arrow.png"></image>
+    </view>
+    <view class="orderList">
+      <view class="orderItem">
+        <image class="order-img" src="/images/order/stay-pay.png"></image>
+        <text class="order-text">待付款</text>
+      </view>
+      <view class="orderItem">
+        <image class="order-img" src="/images/order/stay-deliver.png"></image>
+        <text class="order-text">待发货</text>
+      </view>
+      <view class="orderItem">
+        <image class="order-img" src="/images/order/stay-receive.png"></image>
+        <text class="order-text">待收货</text>
+      </view>
+      <view class="orderItem">
+        <image class="order-img" src="/images/order/stay-evaluate.png"></image>
+        <text class="order-text">待评价</text>
+      </view>
+      <view class="orderItem">
+        <image class="order-img" src="/images/order/order-completed.png"></image>
+        <text class="order-text">已完成</text>
+      </view>
+    </view>
+  </view>
+  <view class="myListView">
+    <view class="listItem">
+      <image class="listImg" src="/images/my/list-adress.png"></image>
+      <view class="listTxt">我的收货地址</view>
+      <image class="list-right-arrow" src="/images/order/right-arrow.png"></image>
+    </view>
+    <view class="listItem">
+      <image class="listImg" src="/images/my/list-discount.png"></image>
+      <view class="listTxt">我的优惠券</view>
+      <image class="list-right-arrow" src="/images/order/right-arrow.png"></image>
+    </view>
+    <view class="listItem">
+      <image class="listImg" src="/images/my/list-collection.png"></image>
+      <view class="listTxt">我的收藏</view>
+      <image class="list-right-arrow" src="/images/order/right-arrow.png"></image>
+    </view>
+    <view class="listItem">
+      <image class="listImg" src="/images/my/list-follow.png"></image>
+      <view class="listTxt">我的关注</view>
+      <image class="list-right-arrow" src="/images/order/right-arrow.png"></image>
+    </view>
+    <view class="listItem">
+      <image class="listImg" src="/images/my/list-footprint.png"></image>
+      <view class="listTxt">浏览足迹</view>
+      <image class="list-right-arrow" src="/images/order/right-arrow.png"></image>
+    </view>
+    <view class="listItem">
+      <image class="listImg" src="/images/my/list-about.png"></image>
+      <view class="listTxt">关于我们</view>
+      <image class="list-right-arrow" src="/images/order/right-arrow.png"></image>
+    </view>
+    
+  </view>
+</view>

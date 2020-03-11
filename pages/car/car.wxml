@@ -1,0 +1,7 @@
+<view class="content">
+  <view class="topImageView">
+      <image class='topImage' src='/images/cart/cart-null.png' mode='scaleToFill'></image>
+  </view>
+  <view class='cart-null-text'>亲，你的购物车还空空的哟～</view>
+  <button class="goShop" bindtap="goShop">继续购物</button>
+</view>
