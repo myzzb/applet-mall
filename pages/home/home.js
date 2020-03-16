@@ -6,6 +6,12 @@ Page({
    * 页面的初始数据
    */
   data: {
+    bannerData: ['/images/banner/001.jpeg', '/images/banner/002.jpeg', '/images/banner/003.jpeg'],
+    indicatorDots: true,
+    vertical: false,
+    autoplay: true,
+    interval: 2000,
+    duration: 500
   
   },
 

@@ -1,1 +1,55 @@
-/* pages/home/home.wxss */
+.content{
+  margin: 0rpx;
+  height: 100%;
+}
+.swiper{
+  width: 740rpx;
+  height: 340rpx;
+}
+.swiper-item{
+  width: 740rpx;
+  height: 340rpx;
+}
+.swiper-item-view{
+  width: 740rpx;
+  height: 340rpx;
+}
+.tabView{
+  height: 300rpx;
+}
+.banner-img{
+  width: 740rpx;
+  height: 340rpx;
+}
+.tabRow{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tabItem{
+  width: 100rpx;
+  height: 100rpx;
+  margin: 20rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tab-img{
+  width: 100rpx;
+  height: 100rpx;
+}
+.tab-text{
+  color: #515151;
+  font-size: 22rpx;
+}
+.couponView{
+  height: 200rpx;
+}
+.coupon-img{
+  width: 100%;
+  height: 200rpx;
+}
+.goodsView{
+  margin-top: 24rpx;
+  /* border: 1px solid blue; */
+}
